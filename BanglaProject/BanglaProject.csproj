@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{51E04FF0-98D4-49B1-B9AA-67EF3AD053ED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BanglaProject</RootNamespace>
+    <AssemblyName>BanglaProject</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>0 %281%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataBase\DataBaseConnection.cs" />
+    <Compile Include="FarmDatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FarmDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="InputValidatorProduct.cs" />
+    <Compile Include="InputValidatorUser.cs" />
+    <Compile Include="WindowsForm\FormAddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForm\FormAddCustomer.Designer.cs">
+      <DependentUpon>FormAddCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsForm\FormAddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForm\FormAddProduct.Designer.cs">
+      <DependentUpon>FormAddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsForm\FormAddSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForm\FormAddSales.Designer.cs">
+      <DependentUpon>FormAddSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsForm\FormAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForm\FormAddUser.Designer.cs">
+      <DependentUpon>FormAddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsForm\FormAdminView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForm\FormAdminView.Designer.cs">
+      <DependentUpon>FormAdminView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsForm\FormEditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForm\FormEditUser.Designer.cs">
+      <DependentUpon>FormEditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsForm\FormEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForm\FormEmployee.Designer.cs">
+      <DependentUpon>FormEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsForm\FormFindPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForm\FormFindPassword.Designer.cs">
+      <DependentUpon>FormFindPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsForm\FormInvoicePrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForm\FormInvoicePrint.Designer.cs">
+      <DependentUpon>FormInvoicePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsForm\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForm\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsForm\FormManageProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForm\FormManageProducts.Designer.cs">
+      <DependentUpon>FormManageProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsForm\FormReset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForm\FormReset.Designer.cs">
+      <DependentUpon>FormReset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsForm\FormUpdateProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForm\FormUpdateProduct.Designer.cs">
+      <DependentUpon>FormUpdateProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WindowsForm\FromSalesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsForm\FromSalesReport.Designer.cs">
+      <DependentUpon>FromSalesReport.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="WindowsForm\FormAddCustomer.resx">
+      <DependentUpon>FormAddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsForm\FormAddProduct.resx">
+      <DependentUpon>FormAddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsForm\FormAddSales.resx">
+      <DependentUpon>FormAddSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsForm\FormAddUser.resx">
+      <DependentUpon>FormAddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsForm\FormAdminView.resx">
+      <DependentUpon>FormAdminView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsForm\FormEditUser.resx">
+      <DependentUpon>FormEditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsForm\FormEmployee.resx">
+      <DependentUpon>FormEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsForm\FormFindPassword.resx">
+      <DependentUpon>FormFindPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsForm\FormInvoicePrint.resx">
+      <DependentUpon>FormInvoicePrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsForm\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsForm\FormManageProducts.resx">
+      <DependentUpon>FormManageProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsForm\FormReset.resx">
+      <DependentUpon>FormReset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsForm\FormUpdateProduct.resx">
+      <DependentUpon>FormUpdateProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="WindowsForm\FromSalesReport.resx">
+      <DependentUpon>FromSalesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="FarmDatabaseDataSet.xsc">
+      <DependentUpon>FarmDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FarmDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FarmDatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FarmDatabaseDataSet.xss">
+      <DependentUpon>FarmDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="0 %281%29.ico" />
+    <None Include="Icon And BG\icons8-back-30.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,200 @@
+C:\Users\najiy\Downloads\BanglaProject\bin\Debug\BanglaProject.exe.config
+C:\Users\najiy\Downloads\BanglaProject\bin\Debug\BanglaProject.exe
+C:\Users\najiy\Downloads\BanglaProject\bin\Debug\BanglaProject.pdb
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.csproj.AssemblyReference.cache
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.Properties.Resources.resources
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.csproj.GenerateResource.cache
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.csproj.CoreCompileInputs.cache
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.exe
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.pdb
+E:\C#\BanglaProject\bin\Debug\BanglaProject.exe.config
+E:\C#\BanglaProject\bin\Debug\BanglaProject.exe
+E:\C#\BanglaProject\bin\Debug\BanglaProject.pdb
+E:\C#\BanglaProject\obj\Debug\BanglaProject.csproj.AssemblyReference.cache
+E:\C#\BanglaProject\obj\Debug\BanglaProject.exe.config
+E:\C#\BanglaProject\obj\Debug\BanglaProject.Form2.resources
+E:\C#\BanglaProject\obj\Debug\BanglaProject.Properties.Resources.resources
+E:\C#\BanglaProject\obj\Debug\BanglaProject.csproj.GenerateResource.cache
+E:\C#\BanglaProject\obj\Debug\BanglaProject.csproj.CoreCompileInputs.cache
+E:\C#\BanglaProject\obj\Debug\BanglaProject.exe
+E:\C#\BanglaProject\obj\Debug\BanglaProject.pdb
+E:\C#\BanglaProject\obj\Debug\BanglaProject.FormLogin.resources
+E:\C#\BanglaProject\obj\Debug\BanglaProject.FormAdminView.resources
+C:\Users\najiy\Pictures\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.csproj.AssemblyReference.cache
+C:\Users\najiy\Pictures\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.Form1.resources
+C:\Users\najiy\Pictures\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.FormAdminView.resources
+C:\Users\najiy\Pictures\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.FormLogin.resources
+C:\Users\najiy\Pictures\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.Form2.resources
+C:\Users\najiy\Pictures\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.Properties.Resources.resources
+C:\Users\najiy\Pictures\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.csproj.GenerateResource.cache
+C:\Users\najiy\Pictures\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.csproj.CoreCompileInputs.cache
+C:\Users\najiy\Pictures\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.exe
+C:\Users\najiy\Pictures\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.pdb
+C:\Users\najiy\Pictures\BanglaProject (1)\BanglaProject\bin\Debug\BanglaProject.exe.config
+C:\Users\najiy\Pictures\BanglaProject (1)\BanglaProject\bin\Debug\BanglaProject.exe
+C:\Users\najiy\Pictures\BanglaProject (1)\BanglaProject\bin\Debug\BanglaProject.pdb
+C:\Users\najiy\Pictures\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.exe.config
+E:\C#\BanglaProject (1)\BanglaProject\bin\Debug\BanglaProject.exe.config
+E:\C#\BanglaProject (1)\BanglaProject\bin\Debug\BanglaProject.exe
+E:\C#\BanglaProject (1)\BanglaProject\bin\Debug\BanglaProject.pdb
+E:\C#\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.csproj.AssemblyReference.cache
+E:\C#\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.exe.config
+E:\C#\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.Form1.resources
+E:\C#\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.FormAdminView.resources
+E:\C#\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.FormLogin.resources
+E:\C#\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.Properties.Resources.resources
+E:\C#\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.csproj.GenerateResource.cache
+E:\C#\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.csproj.CoreCompileInputs.cache
+E:\C#\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.exe
+E:\C#\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.pdb
+E:\C#\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.FormManageUser.resources
+E:\C#\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.FormAddUser.resources
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\bin\Debug\BanglaProject.exe.config
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\bin\Debug\BanglaProject.exe
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\bin\Debug\BanglaProject.pdb
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.csproj.AssemblyReference.cache
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.exe.config
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.Form1.resources
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.FormAddUser.resources
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.FormAdminView.resources
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.FormLogin.resources
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.Properties.Resources.resources
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.csproj.GenerateResource.cache
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.csproj.CoreCompileInputs.cache
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.exe
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.pdb
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.FormEditUser.resources
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.FormAddProduct.resources
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.FormUpdateProduct.resources
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.FormAddCustomer.resources
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.FormEmployee.resources
+C:\Users\najiy\Desktop\BanglaProject (1)\BanglaProject\obj\Debug\BanglaProject.FormManageProducts.resources
+C:\Users\MSI\Downloads\BanglaProject\bin\Debug\BanglaProject.exe.config
+C:\Users\MSI\Downloads\BanglaProject\bin\Debug\BanglaProject.exe
+C:\Users\MSI\Downloads\BanglaProject\bin\Debug\BanglaProject.pdb
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.csproj.AssemblyReference.cache
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.exe.config
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.FormAddCustomer.resources
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.FormAddProduct.resources
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.FormAddUser.resources
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.FormAdminView.resources
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.FormEditUser.resources
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.FormEmployee.resources
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.FormLogin.resources
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.FormManageProducts.resources
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.FormUpdateProduct.resources
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.Properties.Resources.resources
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.csproj.GenerateResource.cache
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.exe
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.pdb
+C:\Users\najiy\Desktop\BanglaProject\bin\Debug\BanglaProject.exe.config
+C:\Users\najiy\Desktop\BanglaProject\bin\Debug\BanglaProject.exe
+C:\Users\najiy\Desktop\BanglaProject\bin\Debug\BanglaProject.pdb
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.csproj.AssemblyReference.cache
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.exe.config
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.Form1.resources
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.FormAddCustomer.resources
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.FormAddProduct.resources
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.FormAddUser.resources
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.FormAdminView.resources
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.FormEditUser.resources
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.FormEmployee.resources
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.FormLogin.resources
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.FormManageProducts.resources
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.FormUpdateProduct.resources
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.Properties.Resources.resources
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.csproj.GenerateResource.cache
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.csproj.CoreCompileInputs.cache
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.exe
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.pdb
+C:\Users\najiy\Desktop\BanglaProject\obj\Debug\BanglaProject.FormAddSales.resources
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.FormAddSales.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\bin\Debug\BanglaProject.exe.config
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\bin\Debug\BanglaProject.exe
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\bin\Debug\BanglaProject.pdb
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.csproj.AssemblyReference.cache
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.exe.config
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormAddCustomer.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormAddProduct.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormAddSales.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormAddUser.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormAdminView.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormEditUser.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormEmployee.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FormInvoicePrint.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormLogin.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormManageProducts.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormUpdateProduct.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.Properties.Resources.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.csproj.GenerateResource.cache
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.csproj.CoreCompileInputs.cache
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.exe
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.pdb
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FromSalesReport.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\bin\Debug\BanglaProject.exe.config
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\bin\Debug\BanglaProject.exe
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\bin\Debug\BanglaProject.pdb
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.csproj.AssemblyReference.cache
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.exe.config
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormAddCustomer.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormAddProduct.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormAddSales.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormAddUser.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormAdminView.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormEditUser.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormEmployee.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FormInvoicePrint.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormLogin.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormManageProducts.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormUpdateProduct.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.Properties.Resources.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FromSalesReport.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.csproj.GenerateResource.cache
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.csproj.CoreCompileInputs.cache
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.exe
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\BanglaProject\obj\Debug\BanglaProject.pdb
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\bin\Debug\BanglaProject.exe.config
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\bin\Debug\BanglaProject.exe
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\bin\Debug\BanglaProject.pdb
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.csproj.AssemblyReference.cache
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.exe.config
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormAddCustomer.resources
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormAddProduct.resources
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormAddSales.resources
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormAddUser.resources
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormAdminView.resources
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormEditUser.resources
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormEmployee.resources
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FormInvoicePrint.resources
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormLogin.resources
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormManageProducts.resources
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.FormUpdateProduct.resources
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.Properties.Resources.resources
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FromSalesReport.resources
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.csproj.GenerateResource.cache
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.exe
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.pdb
+C:\Users\MSI\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FormFindPassword.resources
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.FormAddCustomer.resources
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.FormAddProduct.resources
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.FormAddSales.resources
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.FormAddUser.resources
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.FormAdminView.resources
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.FormEditUser.resources
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.FormEmployee.resources
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FormFindPassword.resources
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FormInvoicePrint.resources
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.FormLogin.resources
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.FormManageProducts.resources
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.FormUpdateProduct.resources
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FromSalesReport.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FormFindPassword.resources
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FormFindPassword.resources
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FormInvoicePrint.resources
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FromSalesReport.resources
+C:\Users\najiy\Downloads\BanglaProject\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FormReset.resources
+C:\Users\MSI\Downloads\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FormReset.resources
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.WindowsForm.FormReset.resources
+C:\Users\najiy\Downloads\BanglaProject\obj\Debug\BanglaProject.exe.config

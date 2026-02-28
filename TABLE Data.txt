@@ -1,0 +1,212 @@
+
+
+SELECT * FROM UserInfo;
+SELECT * FROM CustomerInfo;
+SELECT * FROM ProductInfo;
+SELECT * FROM InvoiceDetails;
+SELECT * FROM InvoiceItems;
+
+DROP TABLE IF EXISTS dbo.InvoiceItems;
+DROP TABLE IF EXISTS dbo.InvoiceDetails;
+DROP TABLE IF EXISTS dbo.ProductInfo;
+DROP TABLE IF EXISTS dbo.CustomerInfo;
+DROP TABLE IF EXISTS dbo.UserInfo;
+
+
+CREATE TABLE [dbo].[UserInfo] (
+    [USER_ID] NVARCHAR(10) NOT NULL,
+    [ROLE] NVARCHAR(10) NOT NULL,
+    [FULL_NAME] NVARCHAR(50) NOT NULL,
+    [USERNAME] NVARCHAR(50) NOT NULL,
+    [EMAIL] NVARCHAR(50) NOT NULL,
+    [MOBILE] NVARCHAR(20) NOT NULL,
+    [PASSWORD] NVARCHAR(50) NOT NULL,
+    [NID] NVARCHAR(20) NOT NULL,
+    [ADDRESS] NVARCHAR(50) NOT NULL,
+    [CREATED_DATE] DATE NOT NULL,
+    [STATUS] BIT NOT NULL,
+    CONSTRAINT [PK_UserInfo] PRIMARY KEY CLUSTERED ([USER_ID] ASC)
+);
+INSERT INTO UserInfo
+([USER_ID], [ROLE], [FULL_NAME], [USERNAME], [EMAIL], [MOBILE], [PASSWORD], [NID], [ADDRESS], [CREATED_DATE], [STATUS])
+VALUES
+('A-001', 'admin', 'Rafiq Ahmed', 'rafiqadmin', 'rafiq@gmail.com', '01710000001', 'Admin@123A', '1234567890', 'Dhaka, Bangladesh', '2026-01-01', 1),
+('A-002', 'admin', 'Shahidul Islam', 'shahiduladmin', 'shahidul@gmail.com', '01710000002', 'Admin@123B', '22345678901234567', 'Chittagong, Bangladesh','2026-01-01', 1),
+('A-003', 'admin', 'Nusrat Jahan', 'nusratadmin', 'nusrat@gmail.com', '01710000003', 'Admin@123C', '3234567890', 'Sylhet, Bangladesh','2026-01-01', 1),
+
+('E-004', 'employee', 'Amina Khatun', 'aminakhatun', 'amina@gmail.com', '01810000004', 'Emp@123Aa', '4234567890', 'Khulna, Bangladesh','2026-01-01', 1),
+('E-005', 'employee', 'Jamil Hossain', 'jamilhossain', 'jamil@gmail.com', '01810000005', 'Emp@123Bb', '52345678901234567', 'Barisal, Bangladesh','2026-01-01', 1),
+('E-006', 'employee', 'Mehedi Hasan', 'mehedihasan', 'mehedi@gmail.com', '01810000006', 'Emp@123Cc', '6234567890', 'Rangpur, Bangladesh','2026-01-01', 1),
+('E-007', 'employee', 'Sumaiya Islam', 'sumaiyaislam', 'sumaiya@gmail.com', '01810000007', 'Emp@123Dd', '7234567890', 'Rajshahi, Bangladesh','2026-01-01', 1),
+('E-008', 'employee', 'Farhana Akter', 'farhanaakter', 'farhana@gmail.com', '01810000008', 'Emp@123Ee', '82345678901234567', 'Mymensingh, Bangladesh','2026-01-01', 1),
+('E-009', 'employee', 'Tanvir Rahman', 'tanvirrahman', 'tanvir@gmail.com', '01810000009', 'Emp@123Ff', '9234567890', 'Comilla, Bangladesh','2026-01-01', 1),
+('E-010', 'employee', 'Hasan Mahmud', 'hasanmahmud', 'hasan@gmail.com', '01810000010', 'Emp@123Gg', '10345678901234567', 'Noakhali, Bangladesh','2026-01-01', 1);
+
+
+
+
+
+CREATE TABLE dbo.CustomerInfo (
+    CUSTOMER_ID NVARCHAR(10) NOT NULL PRIMARY KEY,
+    CUSTOMER_NAME NVARCHAR(50) NOT NULL,
+    CUSTOMER_MOBILE NVARCHAR(20) NOT NULL
+);
+
+
+INSERT INTO dbo.CustomerInfo
+(CUSTOMER_ID, CUSTOMER_NAME, CUSTOMER_MOBILE)
+VALUES
+('PC-001', 'Rahim Uddin',   '01712345678'),
+('PC-002', 'Karim Ahmed',   '01823456789'),
+('PC-003', 'Sadia Islam',   '01934567890'),
+('PC-004', 'Nusrat Jahan',  '01645678901'),
+('PC-005', 'Tanvir Hasan',  '01556789012'),
+('PC-006', 'Faruk Hossain', '01799990000'),
+('PC-007', 'Lamia Akter',   '01888881111'),
+('PC-008', 'Rezaul Karim',  '019777722222'),
+('PC-009', 'Mina Khatun',   '016666633333'),
+('PC-010','Sohail Rana',    '017555544444');
+
+
+
+
+
+
+CREATE TABLE [dbo].[ProductInfo] (
+    [PRODUCT_ID] NVARCHAR(10) NOT NULL PRIMARY KEY,
+    [PRODUCT_NAME] NVARCHAR(50) NOT NULL,
+    [QUANTITY] INT NOT NULL,
+    [CATEGORY_NAME] NVARCHAR(50) NOT NULL,
+    [UNITPRICE] FLOAT NOT NULL,
+    [CREATED_DATE] DATE NOT NULL,
+    [IS_AVAILABLE] BIT NOT NULL,
+    [CREATED_BY_USER_ID] NVARCHAR(10) NOT NULL,
+    FOREIGN KEY ([CREATED_BY_USER_ID]) REFERENCES [dbo].[UserInfo]([USER_ID])
+);
+
+INSERT INTO ProductInfo
+([PRODUCT_ID], [PRODUCT_NAME], [QUANTITY], [CATEGORY_NAME], [UNITPRICE], [CREATED_DATE], [IS_AVAILABLE], [CREATED_BY_USER_ID])
+VALUES
+('FIM-001', 'Rice 1kg', 200, 'Grain', 65, '2026-01-01', 1, 'A-001'),
+('FIM-002', 'Wheat 1kg', 150, 'Grain', 60, '2026-01-02', 1, 'A-001'),
+('FIM-003', 'Corn 1kg', 120, 'Grain', 55, '2026-01-03', 1, 'A-001'),
+('FIM-004', 'Potato 1kg', 300, 'Vegetable', 20, '2026-01-04', 1, 'A-002'),
+('FIM-005', 'Onion 1kg', 250, 'Vegetable', 25, '2026-01-05', 1, 'A-002'),
+('FIM-006', 'Garlic 1kg', 100, 'Vegetable', 45, '2026-01-06', 1, 'A-002'),
+('FIM-007', 'Spinach 1kg', 80, 'Vegetable', 30, '2026-01-07', 1, 'A-003'),
+('FIM-008', 'Cabbage 1kg', 90, 'Vegetable', 22, '2026-01-08', 1, 'A-003'),
+('FIM-009', 'Cauliflower 1kg', 70, 'Vegetable', 35, '2026-01-09', 1, 'A-003'),
+('FIM-010', 'Tomato 1kg', 110, 'Vegetable', 28, '2026-01-10', 1, 'A-003'),
+('FIM-011', 'Cow Milk 1L', 200, 'Dairy', 60, '2026-01-11', 1, 'A-001'),
+('FIM-012', 'Goat Milk 1L', 120, 'Dairy', 75, '2026-01-12', 1, 'A-001'),
+('FIM-013', 'Eggs 12pcs', 180, 'Poultry', 110, '2026-01-13', 1, 'A-001'),
+('FIM-014', 'Chicken Meat 1kg', 80, 'Poultry', 180, '2026-01-14', 1, 'A-002'),
+('FIM-015', 'Live Chicken', 60, 'Poultry', 220, '2026-01-15', 1, 'A-002'),
+('FIM-016', 'Chicken Feed 1kg', 300, 'Feed', 35, '2026-01-16', 1, 'A-002'),
+('FIM-017', 'Rice Bran 1kg', 180, 'Feed', 28, '2026-01-17', 1, 'A-003'),
+('FIM-018', 'Mustard Seeds 1kg', 50, 'Seed', 140, '2026-01-18', 1, 'A-001'),
+('FIM-019', 'Rice Seeds 1kg', 90, 'Seed', 85, '2026-01-19', 1, 'A-001'),
+('FIM-020', 'Vegetable Seeds Mix', 70, 'Seed', 95, '2026-01-20', 1, 'A-002');
+
+
+
+
+CREATE TABLE dbo.InvoiceItems (
+    INVOICE_ITEM_ID INT IDENTITY(1,1) PRIMARY KEY,
+    INVOICE_ID NVARCHAR(10) NOT NULL,
+    PRODUCT_ID NVARCHAR(10) NOT NULL,
+    PRODUCT_NAME NVARCHAR(100) NOT NULL,
+    QUANTITY INT NOT NULL,
+    UNIT_PRICE DECIMAL(10,2) NOT NULL,
+    SUB_TOTAL DECIMAL(10,2) NOT NULL,
+    CONSTRAINT FK_InvoiceItems_ProductInfo
+        FOREIGN KEY (PRODUCT_ID) REFERENCES dbo.ProductInfo(PRODUCT_ID)
+);
+ 
+ 
+INSERT INTO dbo.InvoiceItems
+( INVOICE_ID, PRODUCT_ID, PRODUCT_NAME, QUANTITY, UNIT_PRICE, SUB_TOTAL)
+VALUES
+(  'INV-001', 'FIM-001', 'Rice 1kg',         5,   65.00,  325.00),
+(  'INV-001', 'FIM-004', 'Potato 1kg',       3,   20.00,   60.00),
+
+(  'INV-002', 'FIM-005', 'Onion 1kg',       10,   25.00,  250.00),
+(  'INV-002', 'FIM-006', 'Garlic 1kg',       4,   45.00,  180.00),
+
+(  'INV-003', 'FIM-002', 'Wheat 1kg',        7,   60.00,  420.00),
+(  'INV-003', 'FIM-007', 'Spinach 1kg',      2,   30.00,   60.00),
+
+( 'INV-004', 'FIM-008', 'Cabbage 1kg',      1,   22.00,   22.00),
+(  'INV-004', 'FIM-009', 'Cauliflower 1kg',  6,   35.00,  210.00),
+
+(  'INV-005', 'FIM-010', 'Tomato 1kg',       3,   28.00,   84.00),
+( 'INV-005', 'FIM-011', 'Cow Milk 1L',      5,   60.00,  300.00),
+
+( 'INV-006', 'FIM-012', 'Goat Milk 1L',     8,   75.00,  600.00),
+( 'INV-007', 'FIM-013', 'Eggs 12pcs',      12,  110.00, 1320.00),
+
+( 'INV-008', 'FIM-014', 'Chicken Meat 1kg', 6,  180.00, 1080.00),
+( 'INV-009', 'FIM-015', 'Live Chicken',     4,  220.00,  880.00),
+( 'INV-010', 'FIM-016', 'Chicken Feed 1kg', 9,   35.00,  315.00);
+
+
+
+
+CREATE TABLE dbo.InvoiceDetails (
+    INVOICE_ID NVARCHAR(10) NOT NULL PRIMARY KEY,
+    USER_ID NVARCHAR(10) NOT NULL,
+    CUSTOMER_ID NVARCHAR(10) NOT NULL,
+    CUSTOMER_NAME NVARCHAR(50) NOT NULL,
+    CUSTOMER_MOBILE NVARCHAR(20) NOT NULL,
+    TOTAL_AMOUNT DECIMAL(10,2) NOT NULL,
+    DISCOUNT_AMOUNT DECIMAL(10,2) NOT NULL,
+    FINAL_AMOUNT DECIMAL(10,2) NOT NULL,
+    INVOICE_DATE DATE NOT NULL,
+    FOREIGN KEY (USER_ID) REFERENCES dbo.UserInfo(USER_ID)
+);
+INSERT INTO dbo.InvoiceDetails
+(INVOICE_ID, USER_ID, CUSTOMER_ID, CUSTOMER_NAME, CUSTOMER_MOBILE,
+ TOTAL_AMOUNT, DISCOUNT_AMOUNT, FINAL_AMOUNT, INVOICE_DATE)
+VALUES
+-- INV-001 → 325 + 60 = 385
+('INV-001','A-001','PC-001','Rahim Uddin','01712345678',
+ 385.00, 50.00, 335.00, '2026-01-01'),
+
+-- INV-002 → 250 + 180 = 430
+('INV-002','A-001','PC-002','Karim Ahmed','01823456789',
+ 430.00, 30.00, 400.00, '2026-01-02'),
+
+-- INV-003 → 420 + 60 = 480
+('INV-003','A-002','PC-003','Sadia Islam','01934567890',
+ 480.00, 100.00, 380.00, '2026-01-03'),
+
+-- INV-004 → 22 + 210 = 232
+('INV-004','A-002','PC-004','Nusrat Jahan','01645678901',
+ 232.00, 20.00, 212.00, '2026-01-04'),
+
+-- INV-005 → 84 + 300 = 384
+('INV-005','A-003','PC-005','Tanvir Hasan','01556789012',
+ 384.00, 200.00, 184.00, '2026-01-05'),
+
+-- INV-006 → 600
+('INV-006','A-003','PC-006','Faruk Hossain','01799990000',
+ 600.00, 40.00, 560.00, '2026-01-06'),
+
+-- INV-007 → 1320
+('INV-007','E-004','PC-007','Lamia Akter','01888881111',
+ 1320.00, 50.00, 1270.00, '2026-01-07'),
+
+-- INV-008 → 1080
+('INV-008','E-004','PC-008','Rezaul Karim','019777722222',
+ 1080.00, 0.00, 1080.00, '2026-01-08'),
+
+-- INV-009 → 880
+('INV-009','E-005','PC-009','Mina Khatun','016666633333',
+ 880.00, 150.00, 730.00, '2026-01-09'),
+
+-- INV-010 → 315
+('INV-010','E-005','PC-010','Sohail Rana','017555544444',
+ 315.00, 30.00, 285.00, '2026-01-10');
+
+
+
