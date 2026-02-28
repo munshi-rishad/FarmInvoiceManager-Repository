@@ -76,11 +76,6 @@ Once configured, you can use the system to generate invoices, manage customers, 
 18. **Employee Show Customer**  
     ![Screenshot 18](Screenshort/Screenshot_18.png)
 ## How to Use
-
-1. Clone the repository to your local machine:
-   ```bash
-   git clone ## How to Use
-
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/munshi-rishad/FarmInvoiceManager-Repository.git
