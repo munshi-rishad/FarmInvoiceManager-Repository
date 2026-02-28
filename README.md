@@ -19,7 +19,6 @@ This is a C# project for managing farm invoices. It is integrated with Microsoft
 ## Usage
 
 Once configured, you can use the system to generate invoices, manage customers, and maintain farm product information.
-## Screenshots
 ## Farm Invoice Manager - User Interface Screenshots
 
 1. **Login Page**  
